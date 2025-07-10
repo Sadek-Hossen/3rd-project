@@ -1,0 +1,11 @@
+
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer utilities{
+    .tag{
+        @apply border py-[3px] px-[10px] rounded-full border-amber-500 overflow-hidden hover:bg-black hover:text-white cursor-pointer;
+    }
+}

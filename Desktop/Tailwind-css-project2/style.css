@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme{
+     --color-emon:#CAFF33
+}
+@layer utilities{
+    .btn{
+        @apply bg-[#CAFF33] hover:bg-amber-100 transition-all cursor-pointer px-5 py-3 rounded-full mt-4
+    }
+}

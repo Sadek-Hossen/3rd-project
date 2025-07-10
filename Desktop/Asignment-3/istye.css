@@ -1,0 +1,1266 @@
+*{
+    padding: 0;
+    margin: 0;
+  font-family: "Poppins", sans-serif;
+  top: 0;
+  box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 900px;
+    background-image: url(images/Rectangle\ 19290.png);
+    background-size: cover;
+    margin-top: 0px;
+}
+.nav-heder{
+    display: flex; 
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    color: aliceblue;
+
+
+    
+    
+}
+.nav-heder .nav-item{
+width: 100px;
+padding: 60px 0px;
+    
+    
+}
+.nav-logo{
+    width: 150%;
+    margin-left:200px ;
+}
+
+.nav-link{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;width: 600px;
+
+
+}
+.nav-link div{
+    display: flex;
+    align-items: center;
+        cursor: pointer;
+
+
+}
+.nav-link div a{
+    padding: 1cqh;
+    font-size: 11px;
+}
+.nav-survicee{
+    margin-right: 20px;
+}
+.list{
+    background-color: rgb(139, 139, 139);
+    width: 15px;
+    border: none;
+    outline:none;
+    margin-right:50px;
+
+}
+.list option{
+    font-size: 16px;
+}
+.nav-button button{
+    background-color: #DF6951;
+    padding: 10px 15px;
+    width: 150px ;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+}
+.nav-button button:hover{
+    background-color: #b16151;
+    transition: ease-in 0.3s;
+}
+.nav-metter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    color: aliceblue;
+    margin-top: 300px;
+    
+}
+.nav-metter h1{
+
+}
+.metter-perent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    backdrop-filter: blur(80px);
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+.nav-metter .metter-conent{
+    
+    justify-content: space-between;
+    padding-left: 20px  ;
+        display: flex;
+}
+.for-border{
+    border-right: 1px solid ;
+    padding: 10px 0px;
+    margin-right: 10px;
+
+}
+.nav-metter .metter-conent p{
+font-size: 13px;
+padding:  0px 10px;
+}
+.nav-metter .metter-conent i{
+    padding:0px 10px;
+}
+.nav-metter .metter-conent button{
+    background-color: #DF6951;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: aliceblue;
+    margin-right: 10px;
+
+
+}
+.nav-metter .metter-conent button:hover{
+    background-color: #b16151;
+    transition: ease-in 0.3s;
+}
+/* header end */
+/* play logo sectin start */
+.play-club{
+    background-color: rgb(139, 165, 165);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: -24px;
+}
+.play-club .play-img{
+display: flex;
+justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap:190px
+}
+.play-club .play-img img{
+    width: 100px;
+    height: 100px;
+    padding: 20px 0px;
+    
+}
+/* play section end */
+/* catagori section start */
+.catgori{
+    width: 100%;
+    padding: 0;
+    background-color: aliceblue;
+    height: 500px;
+
+}
+.catagori-content{
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+.text-catagori{
+    width: 100%;
+margin: 0 auto;
+text-align: center;
+padding: 50px;
+}
+.text-catagori span{
+color:#ff350c ;
+font-size: 14px;
+margin-bottom: 10px;
+}
+.text-catagori  h2{
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.catagori-item{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    margin: 0 auto;
+    align-items: center;
+    justify-content:center;
+    gap:10px ;
+
+}
+.catagori-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin: 0 auto;
+
+}
+.catagori-card img{
+    width: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.catagori-card h4{
+font-weight: 550;
+padding-bottom: 20px;
+
+}
+.catagori-card p{
+    text-align: center;
+    font-size: 13px;
+    width: 170px;
+}
+/* catagori section  end*/
+/* romantick section start */
+
+.romantic{
+    width: 100%;
+    height: auto;
+}
+.romantic-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.img-romantic{
+    padding:  100px 0px;
+
+}
+.img-romantic img{
+    width: 600px;
+}
+.tropicul-romantic{
+    padding: 10px;
+    width: 400px;
+    
+}
+.tropicul-romantic span{
+    color: #DF6951;
+    text-transform: uppercase;
+    
+    margin-bottom: 20px;
+}
+.tropicul-romantic h1{
+    padding: 20px 0;
+    font-family:serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+}
+.tropicul-romantic p{
+    font-size: 12px;
+    line-height:17px
+}
+.tropicul-romantic button{
+        background-color: #DF6951;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: aliceblue;
+    margin-top: 20px;
+
+
+
+}
+.tropicul-romantic button:hover{
+    background-color: #b16151;
+    transition: ease-in 0.3s;
+}
+/* romantick section end */
+/* resort section start */
+.resort{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+
+}
+.resort-parent{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.book-resort span{
+    color: #ff350c;
+    font-size:14px
+}
+.book-resort h1{
+    font-size: 26px;
+    width: 300px;
+    padding-top: 20px;
+    font-family: serif;
+    font-weight: 600;
+}
+.chose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:0px;
+}
+.chose i{
+    margin-top: 16px;
+}
+.chose .grop{
+    background-color:#F0BB1F ;
+    padding: 15px;
+    border-radius: 7px;
+
+}
+.chose .swimming{
+    background-color:#F15A2B ;
+    padding: 15px;
+    border-radius: 7px;
+
+}
+.chose .car{
+    background-color:#006380 ;
+    padding: 15px;
+    border-radius: 7px;
+
+}
+.chose div h1{
+    font-size: 17px;
+      font-family:  "Poppins", sans-serif; 
+}
+.chose div p{
+    font-size: 14px;
+    width: 300px;
+}
+.fligt-trip-main{
+    width: 100%;
+    height: 40%;
+    
+}
+.resort-flight img{
+margin-top: -150px;
+margin-left: 200px;
+width: 100%;
+}
+.resort-trip{
+    margin-top: -450px;
+    margin-left: 4
+    300px;
+}
+/* resort section end */
+/* holyday start */
+
+.make-holyday{
+    width: 100%;
+    height: 300px;
+    padding: 20px 0;
+    margin-bottom: 120px;
+}
+.make-holyday img{
+    width: 100%;
+}
+/* holday end */
+/* eourop section start */
+.europ-tour{
+    width: 100%;
+    height: auto;
+}
+.tour-main{
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+.text-content{
+    width: 50%;
+    padding: 20px 0;
+}
+.text-content span{
+text-transform: uppercase;
+color:#ff350c;
+font-size: 20px;
+    }
+    .text-content h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        padding:20px 0;
+        font-weight: 700;
+    }
+.text-content p{
+    padding-bottom: 20px;
+}
+.text-content button{
+    background-color: #DF6951;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.text-content button:hover{
+    background-color: #b16151;
+    transition: ease-in 0.3s;
+}
+
+.tour-disply{
+    display: flex;
+    padding-top: 50px;
+}
+
+.tour-img{
+    display: flex;
+    gap: 40px;
+    width: 500px;height: auto;
+    z-index: 100;
+}
+.tour-img .img{
+    display: flex;
+    width: 100%;
+    height: 200px;
+
+}
+.tour-img img{
+    width: 150px;
+}
+.tour-img button{
+height: 30px;
+margin-left: -69px;
+margin-top: 14px;
+background-color: #DF6951;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+    font-size: 10px; 
+    padding: 0 20px;   
+    cursor: pointer;
+    color: aliceblue;
+}
+.tour-spanis{
+    display: flex;
+    z-index: -1;
+    align-items: end;
+    margin-top: -250px;
+    margin-left: 100px;
+
+}
+.tour-spanis img{
+width: 350px;
+}
+.tour-spanis  h1{
+    rotate: -90deg;
+    width: 400px;
+    margin-left: -150px;
+    font-weight: 700;
+    opacity: 0.1;
+    font-size: 30px;
+    margin-bottom: 170px;
+}
+/* eourop section end */
+
+
+/* promotion start */
+.promotion{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.main-promotion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top:300px;
+    color: aliceblue;
+}
+.first-promotion{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Rectangle\ 19301.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+.second-promotion{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url(images/Rectangle\ 19302.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.second-promotion .text {
+    margin: 0 auto;
+    width: 200px;
+    margin-top: -200px;
+}
+.first-promotion .text {
+    margin:  auto;
+    width: 200px;
+    margin-top: 167px;
+    
+}
+.first-promotion .text h3{
+    text-transform: uppercase;
+    font-weight:400;
+
+}
+.first-promotion .text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+.first-promotion .text  button{
+    background-color: transparent;
+    border: 1px solid rgb(193, 190, 185);
+    color: aliceblue;
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.first-promotion .text button:hover{
+    background-color: #DF6951;
+    transition: ease-in 0.3s;
+}
+
+
+.second-promotion .text h3{
+    text-transform: uppercase;
+    font-weight:400;
+
+}
+.second-promotion .text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+.second-promotion .text  button{
+    background-color: transparent;
+    border: 1px solid rgb(193, 190, 185);
+    color: aliceblue;
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.second-promotion .text  button:hover{
+    background-color: #DF6951;
+    transition: ease-in 0.3s;
+}
+/* promotion :end */
+
+/* pakag sectin start */
+.packege{
+    width: 100%;
+    height: auto;
+
+}
+.packge-header{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+    width: 600px;
+}
+.packge-header span{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ff350c;
+    font-weight: 600;
+
+}
+.packge-header h1{
+
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+
+}
+.packeg-content{
+   width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 30px;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-left: 100px;
+    }
+     .packeg-card{
+        width: 90%;
+     }
+ .packeg-card .flag{
+        margin-top: -50px;
+    }
+    .datepeople {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: -40px;
+        color: #999;
+    }
+    .reviw{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 10px 0;
+    }
+    .location{
+        color: #999;
+        padding-bottom: 10px;
+    }
+.price{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+.price span{
+    font-size: 24px;
+    color: #ff350c;
+}
+.price del{
+    color: #999;
+    font-size: 20px;
+}
+.pragrap p{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.packeg-card button{
+    background-color: #DF6951;
+    padding: 10px 15px;
+    width: 150px ;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.packeg-card button:hover{
+        background-color: #b16151;
+    transition: ease-in 0.3s;
+}
+/* pakag section end */
+/* start say section */
+.claient-say{
+    width: 100%;
+    height: 700px;
+background-image:url(images/h1-background-img-1\ 1.png) ;
+background-size: cover; 
+
+}
+.sayiitem{
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    padding: 220px 0;
+    text-align: center;
+}
+.sayiitem span{
+    font-size: 24px;
+    color: #ff350c;
+}
+.sayiitem  h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    width: 700px;
+    padding-bottom: 30px;
+
+}
+.sayiitem  div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sayiitem  div i{
+background-color: #999;
+font-size: 20px;
+padding: 30px 30px;
+border-radius: 50%;
+}
+.sayiitem  div i:hover{
+    background-color: #b16151;
+    transition: ease-in 0.1s;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sayiitem img{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+/* say section end */
+/* footer start */
+
+footer{
+    width: 100%;
+    height: auto;
+
+}
+.main-footer{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    padding: 100px 0px;
+}
+.logo-foter{
+    width: 60%;
+    margin-top: 70px;
+}
+.main-footer div h2{
+    padding: 10px 0;
+    font-weight: 500;
+}
+.main-footer div p{
+    padding: 3px 0;
+    font-size: 14px;
+}
+.join h1{
+ font-weight: 500;
+ width: 400px;
+ padding-bottom: 10px;
+ font-size: 27px;
+}
+.input{
+    display: flex; 
+    padding: 10px 0; 
+
+}
+.input input{
+    background-color: #EEEEFF;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+}
+.input button{
+        background-color: #DF6951;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: -20px;
+}
+.input button:hover{background-color: #b16151;
+    transition: ease-in 0.3s
+}
+.join p{
+    padding: 30px 0;
+    width: 300px;
+    margin-top: 12px;
+}
+
+
+
+
+.main{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;    
+}
+.main-footer div p{
+text-align: start;
+}
+.logo p{
+    padding: 20px 0;
+}
+
+.logo .logo-foter{
+    background-color: rgb(90, 90, 75);
+    border-radius: 10px;
+}
+
+.main p{
+    text-align: center;
+    
+}
+.main-footer div{
+width: 200px;
+}
+/* footer end */
+/* responsiv start */
+@media (max-width:748px) {
+    
+    body{
+        
+    }
+header{
+    width: 116%;
+    height:400px;
+    
+
+}
+.nav-heder{
+    gap: 0px;
+    width: 70%;
+
+}
+.nav-heder .nav-item{
+width: 1px;
+    
+    
+}
+.nav-logo {
+    margin-left: -50px;
+}
+.nav-logo img{
+    width: 100px;;
+    margin-left: 00px;
+}
+
+.nav-link{
+width: 50px;
+margin-left:80px;
+margin-top: -20px;
+
+}
+.nav-link div{
+        width: 40px;
+
+
+}
+.nav-link div a{
+    padding: 10px;
+
+}
+.nav-survicee{
+    margin-right: 20px;
+}
+.list{
+    width: 15px;
+     margin-left: -10px;
+}
+.list option{
+    font-size: 16px;
+}
+.nav-button button{
+margin-left: -80px;
+padding: 5px 
+1px;
+margin-top: -20px !important;
+width: 65px;
+display: flex;
+font-size: 10px;
+}
+.nav-button button:hover{
+
+}
+.nav-metter{
+    width: 50%;
+    margin: 0 auto;
+    color: aliceblue;
+    margin-top: 0px;
+    
+}
+.nav-metter h1{
+font-size: 16px;
+}
+.metter-perent{
+        padding: 2px 0px;
+        margin-top: 38px;
+        margin-left: -52px;
+    margin-top: 30px;
+}
+.nav-metter .metter-conent{
+    
+    justify-content: space-between;
+    padding-left: 20px  ;
+        display: flex;
+}
+.for-border{
+    border-right: 1px solid ;
+    padding: 10px 0px;
+    margin-right: 10px;
+
+}
+.nav-metter .metter-conent p{
+font-size: 6px;
+        padding: 0px 0px
+}
+
+
+
+
+
+/* header end */
+/* play logo sectin start */
+.play-club{
+    width: 100%;
+    height: 60px;
+    margin-top: -24px;
+}
+.play-club .play-img{
+
+    gap:20px
+}
+.play-club .play-img img{
+    width: 60px;
+    height: auto;
+}
+/* play section end */
+
+/* catagori section start */
+.catgori{
+height: auto;
+
+}
+.catagori-content{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.catagori-item{
+    width: 100%;
+    grid-template-columns: repeat(1,2fr);
+    gap:0px ;
+
+}
+.catagori-card img{
+    width: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.catagori-card h4{
+padding-bottom: 0px;
+
+}
+/* catagori section  end*/
+
+/* romantick section start */
+
+.romantic{
+    width: 30%;
+    height: auto;
+}
+.romantic-item{
+    display: block;
+    gap: 10px;
+}
+.img-romantic{
+    padding:  100px 0px;
+
+}
+.img-romantic img{
+    width: 300px;
+}
+
+/* romantick section end */
+/* resort section start */
+.resort{
+    padding-bottom: 10px;
+
+}
+.resort-parent{
+    display: block;;
+    margin: 0 auto;
+    gap: 0px;
+}
+
+.chose{
+    gap:10px;
+}
+.fligt-trip-main{
+    width: 100%;
+    height: 40%;
+    
+}
+.resort-flight img{
+margin-top: 0px;
+margin-left:0px;
+width: 100%;
+}
+.resort-trip{
+    margin-top: 0px;
+    margin-left:-200px;
+}
+.resort-trip img{
+    margin-left: 70px;
+    margin-top: -150px;
+    
+    width: 600px;
+}
+/* resort section end */
+/* holyday start */
+
+.make-holyday{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 300px;
+    padding: 0px 0;
+    margin-bottom: 0px;
+}
+.make-holyday img{
+    width: 100%;
+    height:200px;
+}
+/* holday end */
+/* eourop section start */
+.tour-main{
+    width: 70%;
+    height: auto;
+    margin-bottom: -400px;}
+.text-content{
+    width: 100%;
+    padding: 0px 0;
+}
+    .text-content h1{
+     font-size: 30px;
+        padding:20px 0;
+    }
+.text-content p{
+    padding-bottom: 16px;
+}
+.text-content button{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.tour-disply{
+    display: block;
+    padding-top: 0px;
+
+}
+
+.tour-img{
+    display: grid;
+    width: 300px;
+    grid-template-columns: repeat(2,2fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+.tour-img .img{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.tour-spanis{
+    margin-top: 50px;
+    margin-left:65px;
+
+}
+.tour-spanis img{
+width: 150px;
+margin: 0 auto;
+
+}
+.tour-spanis  h1{
+    rotate: 90deg;
+    width:800px;
+    height: 200px;
+    margin-left:-30px;
+    margin-bottom: 0px;
+}
+/* eourop section end */
+/* promotion start */
+.main-promotion{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top:300px;
+    color: aliceblue;
+}
+.first-promotion{
+    height: 500px;
+    display: grid;
+    margin-bottom: -180px;
+}
+.second-promotion{
+    height: 500px;
+}
+
+/* promotion :end */
+
+/* pakag sectin start */
+.packge-header{
+    width: 300px;
+    margin-top: -150px;
+}
+.packge-header span{
+font-size: 16px;
+}
+.packge-header h1{
+    font-size: 20px;
+
+}
+.packeg-content{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 10px;
+    padding: 0px 0;
+    }
+     .packeg-card{
+        width: 80%;
+     } 
+/* pakag section end */
+.claient-say{
+    width: 100%;
+    height: 900px;
+background-image:url(images/h1-background-img-1\ 1.png) ;
+background-size: 700px;
+background-repeat: no-repeat;
+}
+.sayiitem{
+    width: 50%;
+    height: auto;
+    padding: 100px 0;
+}
+.sayiitem span{
+    font-size: 20px;
+}
+.sayiitem  h1{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+}
+.sayiitem  div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sayiitem  div .arrow-right{
+font-size: 20px;
+padding: 10px 10px;
+margin-right: 200px;
+}
+.sayiitem  div .arrow-left{
+font-size: 20px;
+padding: 10px 10px;
+margin-left: 200px;
+}
+.sayiitem img{
+    width: 200px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+/* say section end */
+/* footer start */
+
+footer{
+    height: 1000px;
+    margin-top: -700px;
+}
+.main-footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    margin-left: 40px;
+}
+.logo-foter{
+    width: 30%;
+}
+.main-footer div h2{
+    font-size: 13px;
+}
+.main-footer div p{
+    padding: 3px 0;
+    font-size: 10px;
+    width: 50px;
+}
+.join{
+    width: 400px;
+}
+.join h1{
+ padding-bottom: 10px;
+ font-size: 14px;
+ margin-top: 100px;
+}
+.input{
+    display: block; 
+    padding: 0px 0; 
+
+}
+.input input{
+ border-radius: 10px;
+width: 150px;}
+.input button{
+    font-size: 12px;
+    padding-left: 0px 0;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.join p{
+    padding: 0px 0;
+    width:400px;
+    margin-top: 5px;
+}
+
+
+
+
+.main{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;    
+}
+.main-footer div p{
+text-align: start;
+}
+.logo p{
+    padding: 20px 0;
+}
+
+.logo .logo-foter{
+    background-color: rgb(90, 90, 75);
+    border-radius: 10px;
+}
+
+.main p{
+    text-align: center;
+    
+}
+.main-footer div{
+width: 200px;
+}
+/* footer end */}

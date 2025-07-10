@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.btn{
+    @apply bg-red-400 px-[10px] rounded-3xl hover:bg-green-600 transition
+}

@@ -1,0 +1,71 @@
+
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Text to Speech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body‍ >
+
+
+<style>
+
+#mainDiv{
+margin: 0 auto;
+text-align: center;
+background-color: antiquewhite;
+width: 60%;
+padding-top: 20px;
+height: 200px; 
+border-radius: 10px;
+}
+
+#text{
+ border: none;
+ outline: none;
+ padding-top: 10px;
+ padding-bottom: 10px ;
+  padding-left: 10px;
+  padding-right: 10px;
+    border-radius: 3px;
+    transition: ease-in-out 1s; 
+    font-family: 'Pacifico', cursive;
+}
+#text:hover{
+background-color: rgb(146, 142, 150);
+}
+#voice{
+   border: none;
+ outline: none;
+ padding-top: 10px;
+ padding-bottom: 10px ;
+  padding-left: 10px;
+  padding-right: 10px;
+    border-radius: 3px;
+    transition: ease-in-out 1s;
+  }
+#voice:hover{
+background-color: rgb(115, 112, 119);
+
+
+}
+
+
+</style>
+  <div id="mainDiv">
+    <h2>ইমন ভয়েস হোল্ডার</h2>
+  <input  id="text" placeholder="Type Something..." />
+  <button  onclick="speakText()" id="voice" >🔊 Speak</button>
+  </div>
+  
+
+  <script>
+    function speakText() {
+      let text = document.getElementById("text").value;
+      let utterance = new SpeechSynthesisUtterance(text);
+      speechSynthesis.speak(utterance);
+    }
+  </script>
+</body>
+</html> 
